@@ -1,5 +1,6 @@
 @import "fonts";
 @import "rouge-github";
+@import "bootstrap";
 
 body {
   background-color: #fff;
@@ -38,6 +39,14 @@ a:active h2.link, a:focus h2.link, a:hover h2.link {
   color: #226677
 }
 
+ul.post li {
+  list-style-type: none
+}
+
+article.story h4 {
+  text-decoration: underline
+}
+
 h3, h4, h5, h6 {
   color:#494949;
 }
@@ -49,7 +58,6 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
 }
 
 a small {
@@ -180,7 +188,7 @@ strong {
 }
 
 section {
-  width:500px;
+  width:70%;
   float:right;
   padding-bottom:50px;
 }
