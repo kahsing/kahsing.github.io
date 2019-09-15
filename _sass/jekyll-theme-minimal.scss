@@ -36,7 +36,8 @@ h2.link {
 }
 
 a:active h2.link, a:focus h2.link, a:hover h2.link {
-  color: #226677
+  color: #226677;
+  list-style-type: none
 }
 
 ul.post li {
