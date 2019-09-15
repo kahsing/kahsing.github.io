@@ -11,6 +11,6 @@ read: 2 min
 
 ### Large image
 
-![AI-CheatSheet](https://https://github.com/kahsing/kahsing.github.io/tree/master/assets/img/ai-cheatsheet.png)
+![AI-CheatSheet](https://github.com/kahsing/kahsing.github.io/tree/master/assets/img/ai-cheatsheet.png)
 
 I hope you like it!
