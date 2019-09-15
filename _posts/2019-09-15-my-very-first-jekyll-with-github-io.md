@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll, with The Dearly, Pages at github.io"
 categories: [Deploy]
 tags: [Github]
-read: < 1 min
+read: 1 min
 ---
 
 # Welcome

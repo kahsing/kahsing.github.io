@@ -35,9 +35,32 @@ h2.link {
   color: #267CB9
 }
 
-a:active h2.link, a:focus h2.link, a:hover h2.link {
+a:active h1.link, 
+a:focus h1.link, 
+a:hover h1.link,
+a:active h2.link, 
+a:focus h2.link, 
+a:hover h2.link,
+a:active h3.link, 
+a:focus h3.link, 
+a:hover h3.link,
+a:active h4.link, 
+a:focus h4.link, 
+a:hover h4.link {
   color: #226677;
   list-style-type: none
+}
+
+h1.link, 
+h2.link, 
+h3.link, 
+h4.link {
+  color: #226677;
+  list-style-type: none
+}
+
+small.icon-label {
+  color: white
 }
 
 ul.post li {
@@ -50,6 +73,15 @@ article.story h4 {
 
 h3, h4, h5, h6 {
   color:#494949;
+}
+
+.paddingV-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.paddingT-30 {
+  padding-top: 30px;
 }
 
 a {
@@ -192,6 +224,7 @@ section {
   width:70%;
   float:right;
   padding-bottom:50px;
+  border-top: 1px solid rgba(0,0,0,.05)
 }
 
 small {

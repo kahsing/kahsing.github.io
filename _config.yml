@@ -6,5 +6,7 @@ description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+paginate: 3
+paginate_path: "/pages/story/page:num/"
 sass:
     style: :compressed
