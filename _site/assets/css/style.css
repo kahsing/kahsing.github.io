@@ -258,6 +258,12 @@ h1 {
 h2 {
   color: #393939; }
 
+h2.link {
+  color: #267CB9; }
+
+a:active h2.link, a:focus h2.link, a:hover h2.link {
+  color: #226677; }
+
 h3, h4, h5, h6 {
   color: #494949; }
 
@@ -279,7 +285,7 @@ a:hover small {
   color: #777; }
 
 .wrapper {
-  width: 860px;
+  width: 90%;
   margin: 0 auto; }
 
 blockquote {
@@ -319,7 +325,7 @@ img {
   max-width: 100%; }
 
 header {
-  width: 270px;
+  width: 250px;
   float: left;
   position: fixed;
   -webkit-font-smoothing: subpixel-antialiased; }

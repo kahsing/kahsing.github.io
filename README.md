@@ -39,6 +39,7 @@ Additionally, you may choose to set the following optional variables:
 
 ```yml
 logo: [Location of the logo]
+profile: [Location of the profile]
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
 ```
