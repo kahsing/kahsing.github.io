@@ -4,6 +4,8 @@ title: Stories
 ---
 
 <h2>Stories</h2>
+<p><a href="/pages/storyTag/"><small>See stories by tags</small></a></p>
+<p><a href="/pages/storyCategory/"><small>See stories by categories</small></a></p>
 
 <ul class="post">
   {% for post in paginator.posts %}
@@ -15,13 +17,13 @@ title: Stories
         </small>
       </p>
       <p>
-        <i class="glyphicon glyphicon-tag"></i>
+        <i class="glyphicon glyphicon-folder-open"></i>&nbsp;
         {% for category in post.categories %}
           {{ category }}
         {% endfor %}
       </p>
       {% for tag in post.tags %}
-        <p>&emsp;&emsp;<i class="glyphicon glyphicon-chevron-right"></i> {{ tag }}</p>
+        <p>&emsp;&emsp;<i class="glyphicon glyphicon-tag"></i> {{ tag }}</p>
       {% endfor %}
     <blockquote>
       <p>{{ post.firstLine }}</p>
@@ -66,3 +68,6 @@ title: Stories
     </ul>
 </nav>
 {% endif %}
+
+
+
