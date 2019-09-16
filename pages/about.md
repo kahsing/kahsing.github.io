@@ -206,6 +206,9 @@ layout: default
     <a class="btn btn-primary" href="https://phalcon.io/en-us" target="_blank">
         <small class="icon-label">Phalcon</small>
     </a>
+    <a class="btn btn-primary" href="https://laravel.com/" target="_blank">
+        <small class="icon-label">Laravel</small>
+    </a>
     <a class="btn btn-primary" href="https://aws.amazon.com/api-gateway/" target="_blank">
         <small class="icon-label">API Gateway</small>
     </a>

@@ -13,4 +13,3 @@ read: 2 min
 
 ![AI-CheatSheet](/assets/img/ai-cheatsheet.png)
 
-I hope you like it!
