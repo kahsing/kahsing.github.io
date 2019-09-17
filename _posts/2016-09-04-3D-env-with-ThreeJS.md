@@ -1,12 +1,24 @@
 ---
 layout: post
-title:  "The Very First Prototyping With ThreeJS, PhysiJS, THREEx and so on."
-firstLine: Three.js is a 3D library that tries to make it as easy as possible to get 3D content on a webpage...
+title:  "The Very First Prototyping With ThreeJS, PhysiJS and THREEx."
 categories: [3D-Web]
 tags: [ThreeJS]
 read: 5 min
 ---
 
+<p>Virtual Reality? All I ever wanted to build since was a virtual shopping mall. Turning around 360 degrees, glancing ambience made ups with partially real objects, a place where you can build your world! Let's get it started -- having a first impression rather than building one virtual world in too soon! I'm doing my very first prototyping with ThreeJS, PhysiJS and THREEx.</p> 
+
+##### Some Brief Introduction
+
+*   Three.js is a 3D library that tries to make it as easy as possible to get 3D content on a webpage. 
+*   Physijs takes that philosophy to heart and makes physics simulations just as easy to run and is so easy for graphics newbies to get into 3D programming.
+*   THREEx is games extensions for three.js.
+
+##### References
+
+*     https://threejs.org/
+*     https://github.com/chandlerprall/Physijs
+*     http://learningthreejs.com/data/THREEx/docs/THREEx.KeyboardState.html
 
 ### 3D Environment Prototyping
 
