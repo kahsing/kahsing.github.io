@@ -6,7 +6,7 @@ tags: [Lambda, Deploy]
 read: 10 min
 ---
 
-<p>We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on [Lambda function Versioning]({% post_url 2019-08-10-lambda-version-alias %})</p>.
+We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on [Lambda function Versioning]({% post_url 2019-08-10-lambda-version-alias %}).
 
 
 <p>Let's create this .sh for lambda function publish and update, targetting NodeJs Runtime for the time being. Also, please consider below scenario: </p>

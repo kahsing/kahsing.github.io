@@ -11,15 +11,15 @@
 <meta property="og:title" content="Lambda Function Deployment" />
 <meta name="author" content="Sean Pang" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on [Lambda function Versioning](/aws/2019/08/10/lambda-version-alias.html) ." />
-<meta property="og:description" content="We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on [Lambda function Versioning](/aws/2019/08/10/lambda-version-alias.html) ." />
+<meta name="description" content="We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on Lambda function Versioning." />
+<meta property="og:description" content="We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on Lambda function Versioning." />
 <link rel="canonical" href="http://localhost:4000/aws/2019/08/15/deployment-script-lambda.html" />
 <meta property="og:url" content="http://localhost:4000/aws/2019/08/15/deployment-script-lambda.html" />
 <meta property="og:site_name" content="kahsing.pang" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-08-15T00:00:00+08:00" />
 <script type="application/ld+json">
-{"description":"We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on [Lambda function Versioning](/aws/2019/08/10/lambda-version-alias.html) .","author":{"@type":"Person","name":"Sean Pang"},"@type":"BlogPosting","url":"http://localhost:4000/aws/2019/08/15/deployment-script-lambda.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"Sean Pang"},"headline":"Lambda Function Deployment","dateModified":"2019-08-15T00:00:00+08:00","datePublished":"2019-08-15T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/aws/2019/08/15/deployment-script-lambda.html"},"@context":"https://schema.org"}</script>
+{"description":"We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on Lambda function Versioning.","author":{"@type":"Person","name":"Sean Pang"},"@type":"BlogPosting","url":"http://localhost:4000/aws/2019/08/15/deployment-script-lambda.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"Sean Pang"},"headline":"Lambda Function Deployment","dateModified":"2019-08-15T00:00:00+08:00","datePublished":"2019-08-15T00:00:00+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/aws/2019/08/15/deployment-script-lambda.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=">
@@ -41,8 +41,7 @@
       <small>15 August 2019</small>
 <h1>Lambda Function Deployment</h1>
 
-<p>We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on [Lambda function Versioning](/aws/2019/08/10/lambda-version-alias.html)</p>
-<p>.</p>
+<p>We will learn how to write some simple shell script and execute it. This is a demonstration on how to deploy lambda function through AWS CLI, executing built script from EC2 instance. Before you going further in this read, please make sure you having enough understanding on <a href="/aws/2019/08/10/lambda-version-alias.html">Lambda function Versioning</a>.</p>
 
 <p>Let's create this .sh for lambda function publish and update, targetting NodeJs Runtime for the time being. Also, please consider below scenario: </p>
 
