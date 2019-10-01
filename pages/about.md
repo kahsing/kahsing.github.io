@@ -2,14 +2,9 @@
 layout: default
 ---
 
-### About Me?
+### My Experience
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-
-#### Here's my story:
-
-<br />
 * * *
 
 ##### UTM, Skudai, Johor  ( 2012 - 2016 )
