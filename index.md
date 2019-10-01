@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### About Me?
+### About Me
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 * * *
