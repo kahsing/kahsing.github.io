@@ -326,3 +326,4 @@ Of course there are others possible loaders from Three to be used (eg. OBJLoader
                     textureCamera.lookAt( cameraLookOffset );
                     stats.update();
 ```
+
