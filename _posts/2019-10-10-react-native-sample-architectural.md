@@ -203,7 +203,6 @@ Having thoughts of building mobile applications with skillset constraint on web 
 </div>
 
 <br />
-
 ***
 
 #### Detailed Design of the App
